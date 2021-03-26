@@ -176,6 +176,9 @@ header .ham-burger.active span:nth-child(2){
 	0%{transform: translateY(0);opacity:.5}
 	100%{transform: translateY(10px);}
 }
+.main-bc{
+	background-color: rgb(212, 211, 211);
+}
 .home .container{
   -webkit-display: flex;
   display: flex;

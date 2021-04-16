@@ -32,13 +32,7 @@
         $query="INSERT INTO `get-connected` (`name`, `email`, `mobile`, `message`)
                 VALUES ('$name', '$email', '$mobile', '$message')";
         $result= mysqli_query($conn, $query);
-        if(isset($_POST['submit']))
-        {
-            if($result)
-                echo " Thanks for your Submission.";
-            else
-                echo "Submission can not be send.";
-        }
+       
     }
     else
     {

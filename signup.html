@@ -5,23 +5,20 @@
         <link rel="stylesheet" type="text/css" href="style1.css">
         <body>
             <div class ="sign-up-form">
-                <img src="avatar1.png" class="img">
+                <img src="img/avatar1.png" class="img">
                 <h1>Signup Now</h1>
-                <form>
+                <form action="php pages/user-data.php" method="POST">
                     
-                    <input type="text" class="input-box" placeholder="Enter Username">
+                    <input type="text" name="username" class="input-box" placeholder="Enter Username">
                     
-                    <input type="email" class="input-box" placeholder="Enter email">
+                    <input type="email" name="email-id" class="input-box" placeholder="Enter email">
                     
-                    <input type="password" class="input-box" placeholder="Enter Password">
+                    <input type="password" name="password" class="input-box" placeholder="Enter Password">
                     
-                    <input type="number" class="input-box" placeholder="Enter Phone number">
+                    <input type="number" name="phno" class="input-box" placeholder="Enter Phone number">
                     <p><span><input type="checkbox"></span> agree to the term of services</p>
-                    <button type="button" class="signup-bnt"> Sign up</button>
+                    <button type="submit" class="signup-bnt"> Sign up</button>
                     
-                    <hr>
-                    <p class="or">OR</p>
-                    <button type="button" class="twitter-bnt"> Login with twitter</button>
                     <p>Do you have an account?<a href="login.html">Sign in</a></p>
 
 
